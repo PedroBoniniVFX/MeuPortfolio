@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pedroboninivfx.com/sitemap.xml
+
+# Disallow sensitive directories
+Disallow: /assets/
+Disallow: /.htaccess
+Disallow: /README.md
+
+# Allow important pages
+Allow: /index.html
+Allow: /#sobre
+Allow: /#portfolio
+Allow: /#contato
+
+# Crawl delay (optional)
+Crawl-delay: 1
